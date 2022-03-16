@@ -60,9 +60,8 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U9Q-sx-A9o">
-                                <rect key="frame" x="20" y="818" width="374" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9Q-sx-A9o">
+                                <rect key="frame" x="20" y="818" width="374" height="49"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="NKD-pc-kjr"/>
                                     <barButtonItem systemItem="compose" id="B6U-4f-LKW">
@@ -79,7 +78,10 @@
                             <constraint firstItem="dwm-FB-hzc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0eQ-Oe-nTf"/>
                             <constraint firstItem="dwm-FB-hzc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.922991" id="5Ko-pb-nIU"/>
                             <constraint firstItem="dwm-FB-hzc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.903382" id="6jf-fM-x9G"/>
+                            <constraint firstItem="U9Q-sx-A9o" firstAttribute="trailing" secondItem="HSC-q8-D5e" secondAttribute="trailing" id="OgO-bD-lAL"/>
+                            <constraint firstItem="U9Q-sx-A9o" firstAttribute="leading" secondItem="HSC-q8-D5e" secondAttribute="leading" id="chA-bX-455"/>
                             <constraint firstItem="dwm-FB-hzc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fyr-lU-phn"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="U9Q-sx-A9o" secondAttribute="bottom" constant="-5" id="qv8-vm-Gwy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="ogM-X0-TBl"/>

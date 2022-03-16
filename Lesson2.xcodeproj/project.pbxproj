@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA9FEF6727E2504C000C9548 /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9FEF6627E2504C000C9548 /* login.storyboard */; };
+		AA9FEF6927E251CD000C9548 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FEF6827E251CD000C9548 /* LoginViewController.swift */; };
+		AA9FEF6B27E252C8000C9548 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FEF6A27E252C8000C9548 /* login.swift */; };
 		AACB1AF027E0EACB00CBA654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB1AEF27E0EACB00CBA654 /* AppDelegate.swift */; };
 		AACB1AF227E0EACB00CBA654 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB1AF127E0EACB00CBA654 /* SceneDelegate.swift */; };
 		AACB1AF427E0EACB00CBA654 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB1AF327E0EACB00CBA654 /* NotesViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA9FEF6627E2504C000C9548 /* login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		AA9FEF6827E251CD000C9548 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AA9FEF6A27E252C8000C9548 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		AACB1AEC27E0EACB00CBA654 /* Lesson2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACB1AEF27E0EACB00CBA654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AACB1AF127E0EACB00CBA654 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +65,13 @@
 				AACB1AEF27E0EACB00CBA654 /* AppDelegate.swift */,
 				AACB1AF127E0EACB00CBA654 /* SceneDelegate.swift */,
 				AACB1AF327E0EACB00CBA654 /* NotesViewController.swift */,
+				AA9FEF6627E2504C000C9548 /* login.storyboard */,
 				AACB1AF527E0EACB00CBA654 /* Main.storyboard */,
 				AACB1AF827E0EACC00CBA654 /* Assets.xcassets */,
 				AACB1AFA27E0EACC00CBA654 /* LaunchScreen.storyboard */,
 				AACB1AFD27E0EACC00CBA654 /* Info.plist */,
+				AA9FEF6827E251CD000C9548 /* LoginViewController.swift */,
+				AA9FEF6A27E252C8000C9548 /* login.swift */,
 			);
 			path = Lesson2;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9FEF6727E2504C000C9548 /* login.storyboard in Resources */,
 				AACB1AFC27E0EACC00CBA654 /* LaunchScreen.storyboard in Resources */,
 				AACB1AF927E0EACC00CBA654 /* Assets.xcassets in Resources */,
 				AACB1AF727E0EACB00CBA654 /* Main.storyboard in Resources */,
@@ -138,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9FEF6927E251CD000C9548 /* LoginViewController.swift in Sources */,
+				AA9FEF6B27E252C8000C9548 /* login.swift in Sources */,
 				AACB1AF427E0EACB00CBA654 /* NotesViewController.swift in Sources */,
 				AACB1AF027E0EACB00CBA654 /* AppDelegate.swift in Sources */,
 				AACB1AF227E0EACB00CBA654 /* SceneDelegate.swift in Sources */,
