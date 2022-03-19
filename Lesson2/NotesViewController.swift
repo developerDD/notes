@@ -17,14 +17,14 @@ class NotesViewController: UIViewController, UITableViewDataSource, UITableViewD
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    override func viewDidAppear(_ animated: Bool) {
+/* override func viewDidAppear(_ animated: Bool) {
         let loginStoryBord = UIStoryboard(name: "login", bundle: Bundle.main)
         
         if let loginVC = loginStoryBord.instantiateInitialViewController() as? LoginViewController {
             present(loginVC,animated: true,completion: nil)
         }
     }
-    
+    */
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let notesCount = notesArrey.count
         labelNoNotes.isHidden = notesCount>0

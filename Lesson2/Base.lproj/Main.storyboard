@@ -32,10 +32,10 @@
                 <viewController id="BYZ-38-t0r" customClass="NotesViewController" customModule="Lesson2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dwm-FB-hzc">
-                                <rect key="frame" x="20" y="34.5" width="374" height="827"/>
+                                <rect key="frame" x="20" y="88" width="374" height="731"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NoteCell" rowHeight="45" id="Idq-ws-DBY">
@@ -46,6 +46,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -60,8 +61,12 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9Q-sx-A9o">
-                                <rect key="frame" x="20" y="818" width="374" height="49"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9Q-sx-A9o">
+                                <rect key="frame" x="20" y="770" width="374" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="2xP-JU-JRh"/>
+                                    <constraint firstAttribute="height" constant="49" id="Yau-ye-Ci6"/>
+                                </constraints>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="NKD-pc-kjr"/>
                                     <barButtonItem systemItem="compose" id="B6U-4f-LKW">
@@ -76,12 +81,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="dwm-FB-hzc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0eQ-Oe-nTf"/>
-                            <constraint firstItem="dwm-FB-hzc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.922991" id="5Ko-pb-nIU"/>
                             <constraint firstItem="dwm-FB-hzc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.903382" id="6jf-fM-x9G"/>
-                            <constraint firstItem="U9Q-sx-A9o" firstAttribute="trailing" secondItem="HSC-q8-D5e" secondAttribute="trailing" id="OgO-bD-lAL"/>
-                            <constraint firstItem="U9Q-sx-A9o" firstAttribute="leading" secondItem="HSC-q8-D5e" secondAttribute="leading" id="chA-bX-455"/>
-                            <constraint firstItem="dwm-FB-hzc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fyr-lU-phn"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="U9Q-sx-A9o" secondAttribute="bottom" constant="-5" id="qv8-vm-Gwy"/>
+                            <constraint firstItem="dwm-FB-hzc" firstAttribute="bottom" secondItem="U9Q-sx-A9o" secondAttribute="bottom" id="AKD-uw-yEg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dwm-FB-hzc" secondAttribute="bottom" constant="43" id="DiT-yP-CXt"/>
+                            <constraint firstItem="U9Q-sx-A9o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q1J-hK-QxM"/>
+                            <constraint firstItem="dwm-FB-hzc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vVr-X5-4Nk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="ogM-X0-TBl"/>
@@ -96,6 +100,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
