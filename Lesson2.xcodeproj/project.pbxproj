@@ -43,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAB0DF2A27E90A3800C72748 /* StoryBord */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FEF6627E2504C000C9548 /* login.storyboard */,
+				AACB1AF527E0EACB00CBA654 /* Main.storyboard */,
+				AACB1AFA27E0EACC00CBA654 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBord;
+			sourceTree = "<group>";
+		};
 		AACB1AE327E0EACB00CBA654 = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +75,8 @@
 				AACB1AEF27E0EACB00CBA654 /* AppDelegate.swift */,
 				AACB1AF127E0EACB00CBA654 /* SceneDelegate.swift */,
 				AACB1AF327E0EACB00CBA654 /* NotesViewController.swift */,
-				AA9FEF6627E2504C000C9548 /* login.storyboard */,
-				AACB1AF527E0EACB00CBA654 /* Main.storyboard */,
+				AAB0DF2A27E90A3800C72748 /* StoryBord */,
 				AACB1AF827E0EACC00CBA654 /* Assets.xcassets */,
-				AACB1AFA27E0EACC00CBA654 /* LaunchScreen.storyboard */,
 				AACB1AFD27E0EACC00CBA654 /* Info.plist */,
 				AA9FEF6827E251CD000C9548 /* LoginViewController.swift */,
 				AA9FEF6A27E252C8000C9548 /* login.swift */,
